@@ -43,14 +43,14 @@ cd tg-relay-bot
 npm i
 # 若是空目录：先 npm init -y，再 npm i telegraf dotenv
 
-#配置环境变量
+# 配置环境变量
 
 先复制模板：
 
 cp .env.example .env
 
 
-#运行与使用
+# 运行与使用
 5) 启动
 
 临时前台：
@@ -66,7 +66,7 @@ pm2 save
 # （可选）开机自启：pm2 startup
 
 
-#6) 如何使用
+# 如何使用
 
 你先用个人账号和 Bot 对话（点 Start），确认 Bot 能私聊你。
 
