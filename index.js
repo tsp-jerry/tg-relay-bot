@@ -33,7 +33,7 @@ const esc = (s = '') =>
 const nameOf = (u = {}) =>
   u.username ? '@' + u.username : [u.first_name || '', u.last_name || ''].join(' ').trim() || `id:${u.id || ''}`;
 
-bot.start((ctx) => ctx.reply('你好，我是客服机器人，请直接留言。'));
+bot.start((ctx) => ctx.reply('你好，我是客服，有什么可以帮你。'));
 bot.command('id', (ctx) => ctx.reply(`chat.id=${ctx.chat.id}\nfrom.id=${ctx.from?.id}`));
 
 // A) 用户 → 私聊发给 Bot：转发到你的个人账号
