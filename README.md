@@ -55,17 +55,18 @@ cp .env.example .env
 5) 启动
 
 临时前台：
-
+```bash
 node index.js
-
+```
 
 长期运行（PM2）：
-
+```bash
 npm i -g pm2
 pm2 start index.js --name tg-relay-bot
 pm2 save
-# （可选）开机自启：pm2 startup
 
+# （可选）开机自启：pm2 startup
+```
 
 # 如何使用
 
