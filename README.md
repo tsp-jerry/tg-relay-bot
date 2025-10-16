@@ -42,13 +42,14 @@ git clone <your-repo-url> tg-relay-bot
 cd tg-relay-bot
 npm i
 # 若是空目录：先 npm init -y，再 npm i telegraf dotenv
+```
 
 # 配置环境变量
 
 先复制模板：
-
+```bash
 cp .env.example .env
-
+```
 
 # 运行与使用
 5) 启动
